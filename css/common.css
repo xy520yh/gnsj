@@ -46,10 +46,10 @@ html,body{ -webkit-tap-highlight-color: transparent;width:100%;height:100%;overf
 padding-top: 1.8rem;}
 .tc_way_content{width:3.86rem;position: absolute;left: 50%;transform: translateX(-50%);font-size: 0.26rem;text-align: center;color: #fff;}
 .way_select,.way_input_phone {width: 4.15rem;height: 0.65rem;background:url(../images/tc_bg_way_input_bg.png)  no-repeat;background-size:100% 100%;margin:0 auto;margin-bottom: 0.25rem;}
-.area {width:4.15rem;height: 0.64rem;background: url(../images/tc_way_row.png) no-repeat;background-size: 100% 100%;border: none;outline: medium;appearance: none;-moz-appearance: none;
--webkit-appearance: none;-ms-appearance: none;font-size: 0.26rem;text-align: center;color: #fff;display: flex; justify-content: center;
-background-position:-0.2rem 0;}
-.area option{display:inline-block;text-align: center;background:#83979d;border-radius: 0.05rem; }
+.way_select select {width:4.15rem;height: 0.64rem;background: url(../images/tc_way_row.png) no-repeat;background-size: 100% 100%;border: none;outline: medium;appearance: none;-moz-appearance: none;
+-webkit-appearance: none;-ms-appearance: none;font-size: 0.26rem;text-align: center;color: #fff;display: flex; justify-content: center;text-align-last: center;align-items: center;
+background-position:-0.2rem 0;border:1px solid #f00; padding-left: 2rem;}
+.way_select select option{display:inline-block;text-align: center;background:#83979d;border-radius: 0.05rem;padding-left: 0.5rem;}
 .way_input_phone_content{width:3.45rem; height: 0.64rem; line-height: 0.64rem; background:none; font-size:0.26rem; 
 color:#fff;  border:none; overflow:hidden; text-align:center;}
 .way_input,.way_btn,.way_other{display: flex; justify-content: center;}
@@ -327,7 +327,7 @@ span.goddess_text1{margin-right: 0.15rem;margin-left: 0.15rem;}
 .part3_bless_click img{width: 1.97rem;height: 1.92rem;}
 .part3_tree1{   position: absolute; left:0rem; top: -3rem;height: 4.4rem;width:7.5rem; z-index: 0;background: url(../images/part3_three2.png) no-repeat center center;background-size: 100% 100%;}
 /* .part3_tree1 img{width: 7.5rem;height: 4.53rem;} */
-.part3_tree_top{     position: absolute;     left: 0;bottom:0em;height:12rem;width:7.5rem;background: url(../images/part3_three1.png) no-repeat center center;background-size: 100% 100%;}
+.part3_tree_top{     position: absolute;     left: 0;bottom:0.5rem;height:10.75rem;width:7.5rem;background: url(../images/part3_three1.png) no-repeat center center;background-size: 100% 100%;}
 /* .part3_tree_top img{width:5.8rem;height: 2.43rem;} */
 .part3_center_fl{position:absolute;left:1.7rem;top:3.15rem;overflow:hidden;width:3.55rem;height:8.32rem;transform-origin:top center;-webkit-transform-origin:top center;animation:swing_left_An 2s 0s infinite;-o-animation:swing_left_An 2s 9s infinite;-webkit-animation:swing_left_An 2s 0s infinite;-moz-animation:swing_left_An 2s 0s infinite}
 /* transform-origin:top center;animation:bellring 2s ease infinite;transform-origin:top center;animation:ballring 2s ease infinite;animation-delay:.1s */
