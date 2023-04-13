@@ -1,0 +1,28 @@
+/* main*/
+/* table{border-collapse:collapse;border-spacing:0;table-layout:fixed; } */
+*{margin:0;padding:0;box-sizing: border-box;}
+*{word-wrap: break-word;-webkit-hyphens: auto;-moz-hyphens: auto;-ms-hyphens: auto; hyphens: auto;}/*英文过长换行并添加连接符*/
+html {-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; text-size-adjust: 100%;font-size:80px;} /*避免字体大小被重置*/
+a{text-decoration: none;outline:none;color:inherit}
+a:hover,a:active,a:focus{ background:none;text-decoration: none;color:#f00;}
+p,dt,ul,dl{margin:0; list-style:none;}
+label{ font-weight:normal}
+select,input,button{border:none;outline: none;}
+textarea, select, input {  -webkit-appearance: none; -moz-appearance: none;-o-appearance: none;-ms-appearance: none;appearance: none;}
+img{border:0;vertical-align: middle;display: block;}
+html,body{ -webkit-tap-highlight-color: transparent;width:100%;}/*去除apple设备点击底色*/
+*{font-family: "Helvetica Neue", Helvetica, Arial, 'Microsoft YaHei';}
+body{color:#333; line-height:1.6;margin:0 auto;z-index: -1; }
+/* body{ background:url(../images/bg.jpg) no-repeat center center #fff;background-size: cover;color:#333; line-height:1.6;margin:0 auto;} */
+a{color:#333; }
+/* ::-webkit-scrollbar {width: 0.1rem;}
+::-webkit-scrollbar-track {background-color:rgba(0,0,0,0.3);width:0.1rem;height:100%;padding:1rem;}
+::-webkit-scrollbar-thumb {background: #fff;height:20%;border-radius:0.1rem;} */
+/*清除浮动*/
+.clearfix:before,.clearfix:after{content: " ";display: table;}
+.clearfix:after{clear: both;}
+
+body{  min-width: 100%;background: #fff;}
+.wrap{width:80%;margin:0 auto;font-size:10.5pt;color:#000;padding-top:20px; padding-bottom: 20px;}
+.wrap p{margin-bottom:24px;}
+.wrap h3{text-align: center;font-size: 12pt; margin-bottom: 2pt;}
