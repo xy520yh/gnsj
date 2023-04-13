@@ -50,7 +50,7 @@ padding-top: 1.8rem;}
 -webkit-appearance: none;-ms-appearance: none;font-size: 0.26rem;text-align: center;color: #fff;display: flex; justify-content: center;text-align-last: center;align-items: center;
 background-position:-0.2rem 0;}
 .way_select select option{display:inline-block;text-align: center;background:#83979d;border-radius: 0.05rem;padding-left: 0.5rem;}
-.way_input_phone_content{width:3.45rem; height: 0.64rem; line-height: 0.64rem; background:none; font-size:0.26rem; 
+.way_input_phone_content{width:3.45rem; height:1.64rem; background:none; font-size:0.26rem; 
 color:#fff;  border:none; overflow:hidden; text-align:center;}
 .way_input,.way_btn,.way_other{display: flex; justify-content: center;}
 .way_input_code {width: 2.28rem;height: 0.64rem;background:url(../images/tc_bg_way_code_bg.png)  no-repeat;background-size:100% 100%;line-height:0.64rem;}
@@ -70,7 +70,8 @@ color:#fff;  border:none; overflow:hidden; text-align:center;}
 .tc_choose_main{width:7.5rem; height:4.2rem;background:url(../images/tc_bg_choose.png)  no-repeat;background-size:100% 100%;padding-top: 2rem;}
 .tc_choose_content p{font-size: 0.26rem;color: #4a808f;text-align: center;margin-bottom: 0.15rem;}
 p.tc_choose_btn,.p.tc_bg_share_btn1{display: flex;justify-content: center;}
-p.tc_choose_btn img {width: 2rem; height:  2rem;}
+/* p.tc_choose_btn img {width: 2rem; height:  2rem;} */
+.aderess_img img  {width: 3.16rem; height:  1.18rem;}
 p.tc_bg_share_btn1 img {width: 3.03rem; height: 1.09rem;}
 .tc_choose_content p.tc_choose_btn img{margin-right: 0.1rem;margin-left: 0.1rem;}
 .tc_choose_content p span,.tc_congratulation_content p span{color:#a19f60;}
@@ -156,9 +157,10 @@ span.copy_btn a:hover{background:#eb5450;}
 .part6_tip{width:7.5rem;text-align: center;margin:0 auto;margin-top: 0.1rem; font-size:0.22rem;color:#999999;}
 .part6_center  table thead  tr td{border-bottom:1px solid #94989a;}
 table td:last-child{border-right:none;}
-.pagination img,.pagination_left img{margin-right: 0.1rem;margin-left: 0.1rem;width: 0.3rem;height: auto;}
-.pagination,.pagination_left{    display: flex;justify-content: center;margin-bottom: 0.2rem;margin-top: 0.1rem;}
-.pagination_right img{width:2.02rem;height: auto;}
+.pagination img,.pagination_left img{margin-right: 0.1rem;margin-left: 0.1rem;width: 0.22rem;height: 0.48rem;}
+.pagination,.pagination_left{    display: flex;justify-content: center;margin-bottom: 0.2rem;margin-top: 0.3rem;}
+.pagination_right img{width:2.02rem;height: 0.71rem;margin-top: 0.2rem;}
+.pagination_right {display: flex; align-items: center;}
 .pagination_award1{width:3.9rem;margin:0 auto;    display: flex;justify-content: space-between;margin-bottom: 0.2rem;}
 /*祝福语弹窗*/
 .part3_bless_tc{width:7.35rem; height:6.9rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.675rem;margin-top:-3.45rem;z-index:3; transition: all 0.3s;}
@@ -244,9 +246,9 @@ padding-top: 0.5rem;}
 
 .part2_reserve_fold_dc{position: absolute;top:0rem;left:0rem;width:3rem;height:2.2rem;}
 .part2_reserve_right_dc{position: absolute;right: 2.65rem; top:3.1rem;text-align: center;}
-.reserve_title{font-size: 0.22rem; color:#168ce8;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);height: 0.3rem; line-height: 0.3rem;}
-.reserve_number{font-size: 0.46rem; color:#168ce8;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);height: 0.4rem; line-height: 0.4rem; }
-.reserve_number span{font-size: 0.4rem; color:#168ce8;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);}
+.reserve_title{font-size: 0.22rem; color:#168ce8;text-shadow: 0.02rem 0.02rem 0.1rem rgba(0,0,0,.5);height: 0.3rem; line-height: 0.3rem;}
+.reserve_number{font-size: 0.46rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem rgba(0,0,0,.5);height: 0.4rem; line-height: 0.4rem; }
+.reserve_number span{font-size: 0.4rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem rgba(0,0,0,.5);}
 
 .dc_swiper .swiper-button-next{width:0.32rem;height:0.63rem;background: url(../images/part2_dc_next.png) no-repeat center center;background-size: 100% 100%; position:absolute;right: 0; }
 .dc_swiper .swiper-button-prev{width:0.32rem;height:0.63rem;background: url(../images/part2_dc_prev.png) no-repeat center center;background-size: 100% 100%;position:absolute;left: 0; }
@@ -259,9 +261,9 @@ left:0;top:0;bottom:0;right: 0;}
 .part2_reserve_left{position: absolute;left: 2.2rem; top: 0.46rem;}
 .part2_reserve_left img{width:4.63rem;height: 1.2rem;}
 .part2_reserve_right{position: absolute;right: 2.65rem; top: 2.4rem;text-align: center;}
-.reserve_title{font-size: 0.22rem; color:#168ce8;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);height: 0.3rem; line-height: 0.3rem;}
-.reserve_number{font-size: 0.46rem; color:#168ce8;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);height: 0.4rem; line-height: 0.4rem; }
-.reserve_number span{font-size: 0.4rem; color:#168ce8;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);}
+.reserve_title{font-size: 0.22rem; color:#168ce8;text-shadow: 0.02rem 0.02rem 0.1rem  rgba(0,0,0,.5);height: 0.3rem; line-height: 0.3rem;}
+.reserve_number{font-size: 0.46rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem rgba(0,0,0,.5);height: 0.4rem; line-height: 0.4rem; }
+.reserve_number span{font-size: 0.4rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem rgba(0,0,0,.5);}
 
 
 
@@ -323,6 +325,8 @@ span.goddess_text1{margin-right: 0.15rem;margin-left: 0.15rem;}
 /*part3*/
 /* .part3_main{width:7.5rem;margin: 0 auto;  height:100vh;} */
 .part3_main{width:7.5rem;margin: 0 auto;  height:100vh;} 
+.part3_right_dc_01_btn a{display: block;width: 2rem; height: 0.6rem; position: absolute; bottom: 0.3rem;}
+
 .part3_bless_click{ position: absolute; right:0.6rem; top:10%;}
 .part3_bless_click img{width: 1.97rem;height: 1.92rem;}
 .part3_tree1{   position: absolute; left:0rem; top: -3rem;height: 4.4rem;width:7.5rem; z-index: 0;background: url(../images/part3_three2.png) no-repeat center center;background-size: 100% 100%;}
@@ -380,8 +384,8 @@ span.goddess_text1{margin-right: 0.15rem;margin-left: 0.15rem;}
     /*培育*/
 .foster_text_tip{width:1.8rem;height:1.6rem;background:url(../images/part4_flower_text.png) no-repeat;background-size: 100% 100%;position: absolute;
 top:1.2rem;left:50%;color:#fff;margin-left: -0.9rem; text-align: center;padding-top: 0.4rem;font-family: '思源宋体'; }
-.foster_text_tip p.status_text{font-size:0.2rem;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);}
-.foster_text_tip p.status_name{font-size:0.22rem;text-shadow: 0.02rem 0.02rem rgba(0,0,0,.5);}
+.foster_text_tip p.status_text{font-size:0.2rem;text-shadow: 0.02rem 0.02rem 0.05rem rgba(0,0,0,.5);}
+.foster_text_tip p.status_name{font-size:0.22rem;text-shadow: 0.02rem 0.02rem  0.05rem rgba(0,0,0,.5);}
 .part4_yuan_bg{width:7.5rem;height:10rem;background:url(../images/part4_bg_circle.png) no-repeat;background-size: 100% 100%;margin:0 auto;  position: relative;}
 /* .hualing_roles{width:13rem;height:calc(100vh - 1.6rem);position:relative;margin:0 auto;} */
 .foster_btn{position: absolute;top:8rem; left: 50%;width:4.4rem;margin-left:-2.2rem; z-index: 2;}
@@ -393,15 +397,16 @@ top:1.2rem;left:50%;color:#fff;margin-left: -0.9rem; text-align: center;padding-
 .flower{-webkit-animation:sec_pic 3s linear infinite;-moz-animation:sec_pic 3s linear infinite;-ms-animation:sec_pic 3s linear infinite;-o-animation:sec_pic 3s linear infinite;animation:sec_pic 3 linear infinite}
     /*抽奖*/
 .lottery_bottom{position: absolute;top: 8rem; left: 50%;width:4.4rem;margin-left:-2.2rem; z-index: 2;height:2.6rem;text-align: center;}
-.lottery_number{color:#feffff;font-size: 0.24rem;text-shadow: 0.02rem 0.02rem 0.1rem #3c7e62;}
+.lottery_number{color:#feffff;font-size: 0.24rem;text-shadow: 0.02rem 0.02rem 0.05rem #000;}
 .lottery_number span{color:#fdffb5;font-size: 0.3rem;}
-.lottery_record{font-size: 0.3rem; color: #fff;text-shadow: 0.02rem 0.02rem 0.1rem #3c7e62;} 
+.lottery_record{font-size: 0.3rem; color: #fff;text-shadow: 0.02rem 0.02rem 0.05rem #000;} 
 
 .lottery_img{width: 7.5rem;margin:0 auto;position: absolute; left: 0; top: 1.5rem;}
 .lottery_img img{width: 7.5rem;height: 7.79rem;}
     /*签到*/
 .check_bg{width:7.5rem;height:10.16rem;background:url(../images/part4_check_bg.png) no-repeat;background-size: 100% 100%;left:0rem; top:0.84rem; position: relative;}
 .check_day_text{position: absolute; top: 1.8rem;left: 4.2rem; font-size: 1.25rem;color: #dbce80; font-weight: bold;}
+.check_day_wenhao{width:1rem;height: 0.2rem;position: absolute;     bottom: 0.8rem; left: 5rem;}
 .check_day_list{position: absolute;top: 4rem;left: 1.7rem; display: flex; justify-content: center;}
 .check_day_list li,.check1_day_list1 li,.check1_day_list2 li{width:1.29rem;height:1.54rem;background:url(../images/part4_checkday_bg.png) no-repeat;background-size: 100% 100%; font-size:0.2rem;color:#fff;
 margin-right: 0.1rem;}

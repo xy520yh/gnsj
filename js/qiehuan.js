@@ -240,6 +240,15 @@ $('.choice_next3').click(function(){
 })
 
 
+$('.pagination_right').click(function(){
+  $('.tc_address').css('display','block');
+  $('.tc_yy_award ').css('display','none');
+  $('.masked ').css('display','block');
+})
+$('.tc_address .closed').click(function(){
+  $('.tc_address').css('display','none');
+  $('.masked ').css('display','none');
+})
 
 
 
