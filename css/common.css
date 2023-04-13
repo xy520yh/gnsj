@@ -232,7 +232,7 @@ display: flex; justify-content: center; }
 /* #colorbox, #cboxOverlay, #cboxWrapper{width:7.5rem;height:4.6rem;position:absolute; top:0; left:0; z-index:999999;  -webkit-transform: translate3d(0,0,0);background:url(../images/part1_video_bg.png) no-repeat;background-size: 100% 100%; box-sizing: border-box;}
  #cboxClose{border:0; padding:0; margin:0; overflow:visible; text-indent:-9999px; width:0.6rem; height:0.6rem;  position:fixed;top:0.3rem;right:-0.3rem; background: url(../images/part1_video_closed.png) no-repeat 0 0;background-size: 100% 100%;} */
 
- .reserver{position: absolute;bottom:0;left: 0;}
+ .reserver{position: absolute;bottom:0;left: 0;height: 4.26rem;border:1px solid #f00;width: 100%;}
 .reserver_dc{width:7.5rem;height:4.52rem;background: url(../images/part2_dc_bg.png) no-repeat center center;background-size: 100% 100%; position: absolute;bottom:0;left:0;
 z-index: 5;padding-left:2.4rem;
 padding-top: 0.5rem;}
@@ -277,8 +277,9 @@ left:0;top:0;bottom:0;right: 0;}
 .part2_people img{width:7.5rem;height: auto;}
 .part2_cloud img,.part21_cloud img{width: 9.05rem;height: auto;}
 .part2_event{width: 7.5rem;height:100vh; position: relative;margin:auto auto;}
-.part2_cloud{position: absolute;bottom:-1rem;z-index: 1; left:50%;transform:translateX(-60%);}
+.part2_cloud{position: absolute;bottom:2rem;z-index: 1; left:50%;transform:translateX(-60%);}
 .part21_cloud{position: absolute;bottom:-5rem;z-index: 1; left:50%;transform:translateX(-60%);}
+
 
 
 .part2_people_reserve_show img{width: 7.5rem;height: auto;;}
@@ -320,26 +321,26 @@ img.choice04_img1_left,img.choice04_img1_right{margin-top: -0.1rem;}
 span.goddess_text1{margin-right: 0.15rem;margin-left: 0.15rem;}
 
 /*part3*/
-.part3_main{width:7.5rem;margin: 0 auto;  height:100vh;}
-
+/* .part3_main{width:7.5rem;margin: 0 auto;  height:100vh;} */
+.part3_main{width:7.5rem;margin: 0 auto;  height:100vh;} 
 .part3_bless_click{ position: absolute; right:0.6rem; top:10%;}
 .part3_bless_click img{width: 1.97rem;height: 1.92rem;}
 .part3_tree1{   position: absolute; left:0rem; top: -3rem;height: 4.4rem;width:7.5rem; z-index: 0;background: url(../images/part3_three2.png) no-repeat center center;background-size: 100% 100%;}
 /* .part3_tree1 img{width: 7.5rem;height: 4.53rem;} */
-.part3_tree_top{     position: absolute;     left: 0;top:1.8rem;height:9.62rem;width:7.5rem;background: url(../images/part3_three1.png) no-repeat center center;background-size: 100% 100%;}
+.part3_tree_top{     position: absolute;     left: 0;bottom:0em;height:12rem;width:7.5rem;background: url(../images/part3_three1.png) no-repeat center center;background-size: 100% 100%;}
 /* .part3_tree_top img{width:5.8rem;height: 2.43rem;} */
 .part3_center_fl{position:absolute;left:1.7rem;top:3.15rem;overflow:hidden;width:3.55rem;height:8.32rem;transform-origin:top center;-webkit-transform-origin:top center;animation:swing_left_An 2s 0s infinite;-o-animation:swing_left_An 2s 9s infinite;-webkit-animation:swing_left_An 2s 0s infinite;-moz-animation:swing_left_An 2s 0s infinite}
 /* transform-origin:top center;animation:bellring 2s ease infinite;transform-origin:top center;animation:ballring 2s ease infinite;animation-delay:.1s */
 
 .part3_center_fl img{width:3.55rem;height:8.32rem;}
-.part3_right_dc{ position: absolute;left: 0rem;top:0rem;width:7.5rem;height:8rem;text-align: center;}
+/* .part3_right_dc{ position: absolute;left: 0rem;top:0rem;width:7.5rem;text-align: center;} */
 .part3_right_dc_01{ position: absolute;left: 0.5rem;top:6.2rem;}
 .part3_right_dc_03{ position: absolute;left: 2.78rem;top:6rem;}
 .part3_right_dc_05{ position: absolute;    left:5.08rem; top: 4.2rem;}
 .part3_right_dc_01 img{width: 1.9rem;height: 4.2rem;}
 .part3_right_dc_03 img{width: 1.9rem;height: 4.09rem;}
 .part3_right_dc_05 img{width: 1.9rem;height: 5.4rem;}
-.part3_right_dc_btn{ position: absolute;bottom:-3.5rem;
+.part3_right_dc_btn{ position: absolute;top:10.2rem;
     -webkit-animation: star1 3s linear infinite both;width:3.25rem;left:50%;margin-left:-1.625rem;
     -moz-animation: star1 3s linear infinite both;
     -ms-animation: star1 3s linear infinite both;
