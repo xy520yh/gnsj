@@ -318,8 +318,8 @@ img.part2_people_a{width:7.5rem;height: auto;}
 .choice03_btn img{width: 2.55rem;height: 0.9rem;}
 .choice04_img img{width:1.09rem;height: 1.09rem;margin-right: 0.5rem;margin-bottom: 0.3rem;}
 img.choice04_img1_left,img.choice04_img1_right{margin-top: -0.1rem;}
-.left_prev{position:absolute; top:50%; left:0.9rem;transform:translateY(-50%);    filter: drop-shadow(0.01rem 0.01rem 0.05rem #fff);}
-.right_next{position:absolute; top:50%; right:0.9rem;transform:translateY(-50%);}
+.left_prev{position:absolute; top:50%; left:0.9rem;transform:translateY(-50%);    filter: drop-shadow(0.02rem 0.02rem 0.05rem #fff);}
+.right_next{position:absolute; top:50%; right:0.9rem;transform:translateY(-50%);filter: drop-shadow(0.02rem 0.02rem 0.05rem #fff);}
 .left_prev img,.right_next img{width: 1.04rem;height:0.8rem;}
 .goddess_text{color:#b3a07b; position: absolute;top:1.2rem;left:50%;font-size: 0.3rem; display: flex; justify-content: center; align-items: center;width:3rem;margin-left: -1.45rem;}
 .goddess_text span.dian{width:0.1rem;height: 0.1rem;border-radius: 50%;background: #e0d2b7;}
