@@ -261,9 +261,9 @@ left:0;top:0;bottom:0;right: 0;}
 .part2_reserve_left{position: absolute;left: 2.2rem; top: 0.46rem;}
 .part2_reserve_left img{width:4.63rem;height: 1.2rem;}
 .part2_reserve_right{position: absolute;right: 2.65rem; top: 2.4rem;text-align: center;}
-.reserve_title{font-size: 0.22rem; color:#168ce8;text-shadow: 0.02rem 0.02rem 0.1rem  rgba(0,0,0,.5);height: 0.3rem; line-height: 0.3rem;}
-.reserve_number{font-size: 0.46rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem rgba(0,0,0,.5);height: 0.4rem; line-height: 0.4rem; }
-.reserve_number span{font-size: 0.4rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem rgba(0,0,0,.5);}
+.reserve_title{font-size: 0.22rem; color:#168ce8;text-shadow: 0.02rem 0.02rem 0.1rem #fff;height: 0.3rem; line-height: 0.3rem;}
+.reserve_number{font-size: 0.46rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem #fff;height: 0.4rem; line-height: 0.4rem; }
+.reserve_number span{font-size: 0.4rem; color:#168ce8;text-shadow: 0.02rem 0.02rem  0.1rem #fff;}
 
 
 
@@ -272,14 +272,16 @@ left:0;top:0;bottom:0;right: 0;}
 .part2_event_lt_bless{position:absolute;top:-0.5rem;left:0rem;-webkit-animation:vrSpan 4s linear infinite 300ms 0 ease;-moz-animation:vrSpan 4s linear infinite 300ms 0 ease;-ms-animation:vrSpan 4s linear infinite 300ms 0 ease;animation:vrSpan 4s linear infinite 300ms 0 ease;-moz-animation:vrSpan 4s linear infinite;-webkit-animation:vrSpan 4s linear infinite;-o-animation:vrSpan 4s linear infinite;-ms-animation:vrSpan 4s linear infinite;animation:vrSpan 4s linear infinite}
 .part2_event_rt_award{position:absolute;top:-0.5rem;right:0rem;-webkit-animation:vrSpan 3s linear infinite 300ms 0 ease;-moz-animation:vrSpan 3s linear infinite 300ms 0 ease;-ms-animation:vrSpan 3s linear infinite 300ms 0 ease;animation:vrSpan 3s linear infinite 300ms 0 ease;-moz-animation:vrSpan 3s linear infinite;-webkit-animation:vrSpan 3s linear infinite;-o-animation:vrSpan 3s linear infinite;-ms-animation:vrSpan 3s linear infinite;animation:vrSpan 3s linear infinite}
 .part2_event_rb_flower{position:absolute;bottom:1rem;right:0.5rem;-webkit-animation:vrSpan 4.5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 4.5s linear infinite 300ms 0 ease;-ms-animation:vrSpan 4.5s linear infinite 300ms 0 ease;animation:vrSpan 4.5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 4.5s linear infinite;-webkit-animation:vrSpan 4.5s linear infinite;-o-animation:vrSpan 4.5s linear infinite;-ms-animation:vrSpan 4.5s linear infinite;animation:vrSpan 4.5s linear infinite}
-.part2_event_lb_boss{position:absolute;bottom:1rem;left:0.5rem;-webkit-animation:vrSpan 5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 5s linear infinite 300ms 0 ease;-ms-animation:vrSpan 5s linear infinite 300ms 0 ease;animation:vrSpan 5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 5s linear infinite;-webkit-animation:vrSpan 5s linear infinite;-o-animation:vrSpan 5s linear infinite;-ms-animation:vrSpan 5s linear infinite;animation:vrSpan 5s linear infinite}
+.part2_event_lb_boss{z-index:3;position:absolute;bottom:1rem;left:0.5rem;-webkit-animation:vrSpan 5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 5s linear infinite 300ms 0 ease;-ms-animation:vrSpan 5s linear infinite 300ms 0 ease;animation:vrSpan 5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 5s linear infinite;-webkit-animation:vrSpan 5s linear infinite;-o-animation:vrSpan 5s linear infinite;-ms-animation:vrSpan 5s linear infinite;animation:vrSpan 5s linear infinite}
 .part2_event_list img{width: 2.34rem;height: 2.04rem;}
 .part2_event_list{position:absolute; top:50%; left:50%;transform:translate(-50%,-30%);width:7.5rem;height:5rem;}
 .part2_people {position:absolute; top:50%; left:50%;transform:translate(-50%,-60%);width:7.5rem;height: 8.96rem;}
-.part2_people img{width:7.5rem;height: auto;}
+
+img.part2_people_a{width:7.5rem;height: auto;}
+
 .part2_cloud img,.part21_cloud img{width: 9.05rem;height: auto;}
 .part2_event{width: 7.5rem;height:100vh; position: relative;margin:auto auto;}
-.part2_cloud{position: absolute;bottom:2rem;z-index: 1; left:50%;transform:translateX(-60%);}
+.part2_cloud{position: absolute;bottom:0rem;z-index: 1; left:50%;transform:translateX(-60%);}
 .part21_cloud{position: absolute;bottom:-5rem;z-index: 1; left:50%;transform:translateX(-60%);}
 
 
@@ -294,7 +296,7 @@ left:0;top:0;bottom:0;right: 0;}
 .choice02_title{  font-size: 0.22rem;color:#2b8de5;text-shadow:0.02rem 0.02rem 0.08rem #fff;}
 .choice_next,.choice_next3{height: 0.34rem;}
 .choice_next,.choice_next3 {font-size: 0.22rem;color:#fff;text-decoration: underline;text-shadow:0.02rem 0.02rem 0.08rem #f00;} 
-.part2_goddess_choice {position:absolute; bottom:1.8rem; left:50%;transform:translateX(-50%);width:6rem; z-index:8;}
+.part2_goddess_choice {position:absolute; bottom:0.2rem; left:50%;transform:translateX(-50%);width:6rem; z-index:8;}
 .part2_goddess_choice04{top: 0.6rem;}
 .part3_goddess_choice01{top: -2.6rem;}
 
@@ -302,6 +304,7 @@ left:0;top:0;bottom:0;right: 0;}
 .part2_goddess_choice03,.part2_goddess_choice04{font-size: 0.22rem; color: #2b8de5;text-align: center;}
 .choice02_btn,.choice03_btn,.choice04_btn{display: flex; justify-content: center;}
 .choice03_btn{margin-top:0.2rem;}
+.choice04_btn img{width: 2.35rem;height: 0.73rem;}
 .choice02_btn img{width: 2.73rem;height: 0.9rem;margin-right: 0.2rem; margin-left: 0.2rem;}
 .choice03_title {display:flex; justify-content: center; align-items: center;}
 .choice03_title1{margin-bottom:0.1rem;}
@@ -312,7 +315,7 @@ left:0;top:0;bottom:0;right: 0;}
 .choice04_title{font-size: 0.22rem; color: #2b8de5;text-align: center;margin-bottom: 0.2rem;}
 .choice04_img{display: flex; justify-content: center; position: relative;}
 .part2_goddess_choice04{position: relative;}
-
+.choice03_btn img{width: 2.55rem;height: 0.9rem;}
 .choice04_img img{width:1.09rem;height: 1.09rem;margin-right: 0.5rem;margin-bottom: 0.3rem;}
 img.choice04_img1_left,img.choice04_img1_right{margin-top: -0.1rem;}
 .left_prev{position:absolute; top:50%; left:0.9rem;transform:translateY(-50%);}
@@ -384,8 +387,8 @@ span.goddess_text1{margin-right: 0.15rem;margin-left: 0.15rem;}
     /*培育*/
 .foster_text_tip{width:1.8rem;height:1.6rem;background:url(../images/part4_flower_text.png) no-repeat;background-size: 100% 100%;position: absolute;
 top:1.2rem;left:50%;color:#fff;margin-left: -0.9rem; text-align: center;padding-top: 0.4rem;font-family: '思源宋体'; }
-.foster_text_tip p.status_text{font-size:0.2rem;text-shadow: 0.02rem 0.02rem 0.05rem rgba(0,0,0,.5);}
-.foster_text_tip p.status_name{font-size:0.22rem;text-shadow: 0.02rem 0.02rem  0.05rem rgba(0,0,0,.5);}
+.foster_text_tip p.status_text{font-size:0.2rem;text-shadow: 0.02rem 0.02rem 0.05rem #fff;}
+.foster_text_tip p.status_name{font-size:0.22rem;text-shadow: 0.02rem 0.02rem  0.05rem #fff;}
 .part4_yuan_bg{width:7.5rem;height:10rem;background:url(../images/part4_bg_circle.png) no-repeat;background-size: 100% 100%;margin:0 auto;  position: relative;}
 /* .hualing_roles{width:13rem;height:calc(100vh - 1.6rem);position:relative;margin:0 auto;} */
 .foster_btn{position: absolute;top:8rem; left: 50%;width:4.4rem;margin-left:-2.2rem; z-index: 2;}
@@ -397,9 +400,9 @@ top:1.2rem;left:50%;color:#fff;margin-left: -0.9rem; text-align: center;padding-
 .flower{-webkit-animation:sec_pic 3s linear infinite;-moz-animation:sec_pic 3s linear infinite;-ms-animation:sec_pic 3s linear infinite;-o-animation:sec_pic 3s linear infinite;animation:sec_pic 3 linear infinite}
     /*抽奖*/
 .lottery_bottom{position: absolute;top: 8rem; left: 50%;width:4.4rem;margin-left:-2.2rem; z-index: 2;height:2.6rem;text-align: center;}
-.lottery_number{color:#feffff;font-size: 0.24rem;text-shadow: 0.02rem 0.02rem 0.05rem #000;}
+.lottery_number{color:#feffff;font-size: 0.24rem;text-shadow: 0.02rem 0.02rem 0.05rem #fff;}
 .lottery_number span{color:#fdffb5;font-size: 0.3rem;}
-.lottery_record{font-size: 0.3rem; color: #fff;text-shadow: 0.02rem 0.02rem 0.05rem #000;} 
+.lottery_record{font-size: 0.3rem; color: #fff;text-shadow: 0.02rem 0.02rem 0.05rem #fff;} 
 
 .lottery_img{width: 7.5rem;margin:0 auto;position: absolute; left: 0; top: 1.5rem;}
 .lottery_img img{width: 7.5rem;height: 7.79rem;}
