@@ -37,30 +37,30 @@ html,body{ -webkit-tap-highlight-color: transparent;width:100%;height:100%;overf
 ::-webkit-scrollbar-thumb{background:#fff;height:20%;border-radius:10px;} */
 /*所有弹窗开始*/
 .masked{background: rgba(0,0,0,0.8);position: fixed; width:100%;height:100%;left:0;top:0; z-index:2;}
-.closed{position: absolute;top:0.8rem;right:0.6rem;}
+.closed{position: absolute;top:0.9rem;right:0.6rem;}
 .closed img{transition: all 0.3s;width: 0.56rem; height: 0.59rem ;}
 .closed img:hover{transform:rotate(90deg);}
 /*请选择预约方式*/
 .tc_way{width:7.5rem; height:7rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-3.5rem;z-index:3; transition: all 0.3s;}
 .tc_way_main{width:7.5rem; height:7rem;background:url(../images/tc_bg_way.png)  no-repeat;background-size:100% 100%;
-padding-top: 1.8rem;}
+padding-top: 1.9rem;}
 .tc_way_content{width:3.86rem;position: absolute;left: 50%;transform: translateX(-50%);font-size: 0.26rem;text-align: center;color: #fff;}
 .way_select,.way_input_phone {width: 4.15rem;height: 0.65rem;background:url(../images/tc_bg_way_input_bg.png)  no-repeat;background-size:100% 100%;margin:0 auto;margin-bottom: 0.25rem;}
 .way_select select {width:4.15rem;height: 0.64rem;background: url(../images/tc_way_row.png) no-repeat;background-size: 100% 100%;border: none;outline: medium;appearance: none;-moz-appearance: none;
 -webkit-appearance: none;-ms-appearance: none;font-size: 0.26rem;text-align: center;color: #fff;display: flex; justify-content: center;text-align-last: center;align-items: center;
 background-position:-0.2rem 0;}
 .way_select select option{display:inline-block;text-align: center;background:#83979d;border-radius: 0.05rem;padding-left: 0.5rem;}
-.way_input_phone_content{width:3.45rem; height:1.64rem; background:none; font-size:0.26rem; 
+.way_input_phone_content{width:3.45rem; height:0.64rem; background:none; font-size:0.26rem; 
 color:#fff;  border:none; overflow:hidden; text-align:center;}
 .way_input,.way_btn,.way_other{display: flex; justify-content: center;}
 .way_input_code {width: 2.28rem;height: 0.64rem;background:url(../images/tc_bg_way_code_bg.png)  no-repeat;background-size:100% 100%;line-height:0.64rem;}
 .way_input_phone_content_code{width:1.46rem; height:0.64rem; line-height:0.64rem; background:none; font-size:0.26rem; color:#fff;  border:none; overflow:hidden; text-align:center;}
 .get_code{width: 1.87rem;height: 0.64rem;background:url(../images/tc_bg_way_getcode_bg.png)  no-repeat;background-size:100% 100%;line-height:0.64rem;}
 .way_btn img{width:4.15rem;height: 1.02rem;}
-
+.way_btn{margin-top:0.3rem;}
 .way_line{border:1px solid #c7d4d8;width:3.86rem;margin-bottom: 0.15rem;margin-top: 0.15rem;}
 .way_other img{margin-right: 0.2rem;width: 0.53rem;height: 0.53rem;}
-.way_other{color:#4a808f;}
+.way_other{color:#4a808f;font-size: 0.26rem;align-items: center;}
 /*签到成功*/
 .tc_checkin_success{width:7.5rem; height:4.1rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-2.05rem;z-index:3; transition: all 0.3s;}
 .tc_checkin_main{width:7.5rem; height:4.1rem;background:url(../images/tc_bg_sucess.png)  no-repeat;background-size:100% 100%;padding-top: 2rem;}
@@ -77,31 +77,31 @@ p.tc_bg_share_btn1 img {width: 3.03rem; height: 1.09rem;}
 .tc_choose_content p span,.tc_congratulation_content p span{color:#a19f60;}
 /*恭喜*/
 .tc_congratulation{width:7.5rem; height:5.58rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-2.79rem;z-index:3; transition: all 0.3s;}
-.tc_congratulation_main{width:7.5rem;height:5.58rem;background:url(../images/tc_bg_congratulation.png)  no-repeat;background-size:100% 100%;padding-top: 1.7rem;}
+.tc_congratulation_main{width:7.5rem;height:5.58rem;background:url(../images/tc_bg_congratulation.png)  no-repeat;background-size:100% 100%;padding-top: 1.9rem;}
 .tc_congratulation_content{font-size: 0.26rem;color: #4a808f;text-align: center;}
 /*抱歉*/
 .tc_sorry{width:7.5rem;height:3.96rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-1.98rem;z-index:3; transition: all 0.3s;}
-.tc_sorry_main{width:7.5rem; height:3.96rem;background:url(../images/tc_bg_sorry.png)  no-repeat;background-size:100% 100%;padding-top: 1.8rem;}
+.tc_sorry_main{width:7.5rem; height:3.96rem;background:url(../images/tc_bg_sorry.png)  no-repeat;background-size:100% 100%;padding-top: 1.9rem;}
 .tc_sorry_content{font-size: 0.26rem;color: #4a808f;text-align: center;}
 /*分享*/
 .tc_share{width:7.5rem; height:4.56rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-2.28rem;z-index:3; transition: all 0.3s;}
-.tc_share_main{width:7.5rem; height:4.56rem;background:url(../images/tc_bg_share.png)  no-repeat;background-size:100% 100%;padding-top: 1.8rem;}
+.tc_share_main{width:7.5rem; height:4.56rem;background:url(../images/tc_bg_share.png)  no-repeat;background-size:100% 100%;padding-top: 1.9rem;}
 .tc_share_content{font-size: 0.26rem;color: #4a808f;text-align: center;}
 /*好友祝福*/
 .tc_bless{width:7.5rem; height:7rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-3.5rem;z-index:3; transition: all 0.3s;}
 .tc_bless_main{width:7.5rem; height:7rem;background:url(../images/tc_bg_bless.png)  no-repeat;background-size:100% 100%;padding-top: 2rem;}
-.tc_bless_content{font-size: 0.0.26rem;color: #4a808f;text-align: center;}
+.tc_bless_content{font-size: 0.26rem;color: #4a808f;text-align: center;}
 .blessing{width:5.1rem; height:0.64rem;background:url(../images/tc_bg_bless_yu.png)  no-repeat;background-size:100% 100%;color:#fff;line-height: 0.64rem;display: flex; justify-content: center;
 margin:0 auto;margin-bottom: 0.15rem;}
 div.tc_choose_btn{display: flex; justify-content: center;margin-top:0.2rem; margin-bottom: 0.2rem; line-height: 0.64rem;}
 
 .bless_input_code {width: 3.26rem;height: 0.64rem;background:url(../images/tc_bg_bless_code.png)  no-repeat;background-size:100% 100%;line-height:0.64rem;}
-.bless_input_phone_content_code{width:2.09rem; height:0.64rem; line-height:0.64rem; background:none; font-size:0.17rem; color:#fff;  border:none; overflow:hidden; text-align:center;}
+.bless_input_phone_content_code{width:2.6rem; height:0.64rem; line-height:0.64rem; background:none; font-size:0.17rem; color:#fff;  border:none; overflow:hidden; text-align:center;}
 /*恭喜成功预约*/
 .tc_yy_sucess{width:7.5rem; height:8.4rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-4.2rem;z-index:3; transition: all 0.3s;}
 .tc_yy_sucess_main{width:7.5rem; height:8.4rem;background:url(../images/tc_bg_sucess_yuyue.png)  no-repeat;background-size:100% 100%;padding-top:2rem;}
 .tc_yy_sucess_content{font-size: 0.26rem;color: #4a808f;text-align: center;width:6rem; margin:0 auto;}
-
+.yes_btn{width: 2.6rem;height: 1rem;}
 .yy_title{font-size: 0.26rem; font-weight: 800;margin-bottom: 1rem;}
 .input2{   width: 5.31rem; height:0.82rem;background:url(../images/tc_sucess_yy_copy_bg.png)  no-repeat;background-size:100% 100%; display: flex; justify-content: center; align-items: center;margin:0 auto;margin-top: 0.2rem;margin-bottom: 0.2rem;}
 .input2 p.text{display: table-cell;vertical-align:middle;resize:none;font-size:0.26rem; color:#4873da;width:3.4rem; border:none; overflow: hidden;	word-break: break-all;background:none;height: 0.64rem;}
@@ -109,7 +109,7 @@ div.tc_choose_btn{display: flex; justify-content: center;margin-top:0.2rem; marg
 .input2 p.img img{width:1.7rem;height:0.62rem;}	
 /*活动规则*/
 .tc_rule{width:7.5rem; height:7.2rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-3.6rem;z-index:3; transition: all 0.3s;}
-.tc_rule_main{width:7.5rem; height:7.2rem;background:url(../images/tc_bg_rule.png)  no-repeat;background-size:100% 100%;padding-top: 1.8rem;}
+.tc_rule_main{width:7.5rem; height:7.2rem;background:url(../images/tc_bg_rule.png)  no-repeat;background-size:100% 100%;padding-top: 1.9rem;}
 .tc_rule_content{font-size: 0.18rem;color: #4a808f;text-align: center;}
 .news_cbt_wrap{display:flex;font-size:0.26;color:#4a808f; margin:0 auto;
    height:4.65rem;   width:6rem;}
@@ -141,8 +141,8 @@ div.tc_choose_btn{display: flex; justify-content: center;margin-top:0.2rem; marg
 /*获奖记录1*/
 .tc_yy_award{width:7.5rem; height:7.22rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-3.61rem;z-index:3; transition: all 0.3s;}
 .tc_yy_award_main{width:7.5rem; height:7.22rem;background:url(../images/tc_award_bg.png)  no-repeat;background-size:100% 100%;padding-top: 2rem;}
-.part6_center{ width:5.02rem;height:auto; margin:0 auto; border:1px solid #94989a; border-radius:0.05rem;}
-.part6_center table{width:5rem;border:1px solid #fff; border-radius:0.05rem;overflow: hidden; text-align: center;background:#a6b9bf;}
+.part6_center{ width:6.02rem;height:auto; margin:0 auto; border:1px solid #94989a; border-radius:0.05rem;}
+.part6_center table{width:6rem;border:1px solid #fff; border-radius:0.05rem;overflow: hidden; text-align: center;background:#a6b9bf;}
 .part6_center  table thead {font-size:0.24rem;color: #fff; }
 table td  { border-right: 1px solid #818f93; height:0.45rem; overflow: hidden; line-height: 0.2rem; border-bottom:1px solid #98b2b9;color:#666; font-size:0.22rem; } 
 table td.t1{color:#fff;font-size:0.26rem;}
@@ -173,7 +173,7 @@ table td:last-child{border-right:none;}
   .gold img{width: 1.74rem;height: 1.59rem;margin-left: 0.15rem; margin-right: 0.15rem;}
   .part3_left_btn img{width:3.44rem;height: 1.07rem;}
 .part3_left_bless h3{font-size: 0.3rem;color: #0a74bd;margin-bottom: 0.1rem;font-weight: bold;}
-.part3_left_bless p.gray{color:#767563;font-size:0.22rem;margin-bottom: 0.2rem;}
+.part3_left_bless p.gray{color:#767563;font-size:0.2rem;margin-bottom: 0.2rem;}
 .closed_bless{position:absolute;right:1.52rem;top:1rem;}
 .closed_bless img{position:absolute;width: 0.61rem;height: 0.6rem;}
 /*common*/
@@ -235,7 +235,7 @@ display: flex; justify-content: center; }
  #cboxClose{border:0; padding:0; margin:0; overflow:visible; text-indent:-9999px; width:0.6rem; height:0.6rem;  position:fixed;top:0.3rem;right:-0.3rem; background: url(../images/part1_video_closed.png) no-repeat 0 0;background-size: 100% 100%;} */
 
  .reserver{position: absolute;bottom:0;left: 0;height: 4.26rem;width: 100%;}
-.reserver_dc{width:7.5rem;height:4.52rem;background: url(../images/part2_dc_bg.png) no-repeat center center;background-size: 100% 100%; position: absolute;bottom:0;left:0;
+.reserver_dc{width:7.5rem;height:4.26rem;background: url(../images/part2_dc_bg.png) no-repeat center center;background-size: 100% 100%; position: absolute;bottom:0;left:0;
 z-index: 5;padding-left:2.4rem;
 padding-top: 0.5rem;}
 .reserver_dc .dc_swiper1 {width:5rem; position: relative; height: 1.87rem;}
@@ -274,7 +274,7 @@ left:0;top:0;bottom:0;right: 0;}
 .part2_event_rb_flower{position:absolute;bottom:1rem;right:0.5rem;-webkit-animation:vrSpan 4.5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 4.5s linear infinite 300ms 0 ease;-ms-animation:vrSpan 4.5s linear infinite 300ms 0 ease;animation:vrSpan 4.5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 4.5s linear infinite;-webkit-animation:vrSpan 4.5s linear infinite;-o-animation:vrSpan 4.5s linear infinite;-ms-animation:vrSpan 4.5s linear infinite;animation:vrSpan 4.5s linear infinite}
 .part2_event_lb_boss{z-index:3;position:absolute;bottom:1rem;left:0.5rem;-webkit-animation:vrSpan 5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 5s linear infinite 300ms 0 ease;-ms-animation:vrSpan 5s linear infinite 300ms 0 ease;animation:vrSpan 5s linear infinite 300ms 0 ease;-moz-animation:vrSpan 5s linear infinite;-webkit-animation:vrSpan 5s linear infinite;-o-animation:vrSpan 5s linear infinite;-ms-animation:vrSpan 5s linear infinite;animation:vrSpan 5s linear infinite}
 .part2_event_list img{width: 2.34rem;height: 2.04rem;}
-.part2_event_list{position:absolute; top:50%; left:50%;transform:translate(-50%,-30%);width:7.5rem;height:5rem;}
+.part2_event_list{position:absolute; top:50%; left:50%;transform:translate(-50%,-30%);width:7.5rem;height:5rem; z-index: 3;}
 .part2_people {position:absolute; top:50%; left:50%;transform:translate(-50%,-60%);width:7.5rem;height: 8.96rem;}
 
 img.part2_people_a{width:7.5rem;height: auto;}
@@ -318,7 +318,7 @@ img.part2_people_a{width:7.5rem;height: auto;}
 .choice03_btn img{width: 2.55rem;height: 0.9rem;}
 .choice04_img img{width:1.09rem;height: 1.09rem;margin-right: 0.5rem;margin-bottom: 0.3rem;}
 img.choice04_img1_left,img.choice04_img1_right{margin-top: -0.1rem;}
-.left_prev{position:absolute; top:50%; left:0.9rem;transform:translateY(-50%);}
+.left_prev{position:absolute; top:50%; left:0.9rem;transform:translateY(-50%);    filter: drop-shadow(0.01rem 0.01rem 0.05rem #fff);}
 .right_next{position:absolute; top:50%; right:0.9rem;transform:translateY(-50%);}
 .left_prev img,.right_next img{width: 1.04rem;height:0.8rem;}
 .goddess_text{color:#b3a07b; position: absolute;top:1.2rem;left:50%;font-size: 0.3rem; display: flex; justify-content: center; align-items: center;width:3rem;margin-left: -1.45rem;}
