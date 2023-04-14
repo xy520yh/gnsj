@@ -10,7 +10,7 @@
   <link href="css/common.css" rel="stylesheet">
   <link href="css/colorbox.css" rel="stylesheet">
   <link href="css/css.css" rel="stylesheet">
-  <title>手机端圣境预注册111</title>
+  <title>圣境</title>
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <link rel="shortcut icon" href="images/favicon.ico"/>
@@ -770,27 +770,10 @@
 <script src="js/swiper.animate1.0.3.min.js"></script>
 <script src="js/input.js"></script>
 <script src="js/jquery.colorbox.js"></script>
-  <script>
- $(document).ready(function () {
-  $('body').height($('body')[0].clientHeight);
-});
-
-var swiper = new Swiper(".dc_swiper", {
-        slidesPerView: 2,
-        spaceBetween: -10,
-        navigation: {
-          nextEl: ".dc_swiper .swiper-button-next",
-          prevEl: ".dc_swiper .swiper-button-prev",
-        },
-   });
-
- /*全屏*/
- var Mainswiper = new Swiper('.swiper-fullscreen', {
+<script>
+var Mainswiper = new Swiper('.swiper-fullscreen', {
   direction: 'vertical',
   slidesPerView: 'auto',
-  loop : true,
-  // touchRatio:2,
-  // threshold : 100,
   mousewheel: true,
   // pagination: {
   //   el: '.swiper-pagination',
@@ -811,6 +794,24 @@ var swiper = new Swiper(".dc_swiper", {
   },
 
 });
+
+
+
+
+ $(document).ready(function () {
+  $('body').height($('body')[0].clientHeight);
+});
+
+var swiper = new Swiper(".dc_swiper", {
+        slidesPerView: 2,
+        spaceBetween: -10,
+        navigation: {
+          nextEl: ".dc_swiper .swiper-button-next",
+          prevEl: ".dc_swiper .swiper-button-prev",
+        },
+   });
+
+
 // /*part7--flower*/
 var hualingwiper = new Swiper('.hualing_wrap', {
     loop : true,
