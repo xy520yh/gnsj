@@ -645,9 +645,9 @@
     <!--part4-->
     <div class="swiper-slide slide4" data-hash="slide04">
       <div class="main_show">
-        <!-- <div class="transtion_center  transtion ani" swiper-animate-effect="fadeOut" swiper-animate-duration="1.5s" swiper-animate-delay="0.2s"><img src="images/transitions_bg.png"></div>
+        <div class="transtion_center  transtion ani" swiper-animate-effect="fadeOut" swiper-animate-duration="1.5s" swiper-animate-delay="0.2s"><img src="images/transitions_bg.png"></div>
         <div class="transtion_left transtion ani" swiper-animate-effect="slideOutLeft" swiper-animate-duration="1.5s" swiper-animate-delay="0.4s"><img src="images/transitions_left.png"></div>
-        <div class="transtion_right transtion ani"  swiper-animate-effect="slideOutRight" swiper-animate-duration="1.5s" swiper-animate-delay="0.6s"><img src="images/transitions_right.png"></div> -->
+        <div class="transtion_right transtion ani"  swiper-animate-effect="slideOutRight" swiper-animate-duration="1.5s" swiper-animate-delay="0.6s"><img src="images/transitions_right.png"></div> 
           <div class="part4_title"><img src="images/part4_title.png"></div>
             <!--版权隐藏和遮起-->
           <div class="part4_copyright_show"><img src="images/part5_footer_copyright_img.png"></div>
@@ -669,7 +669,7 @@
                   <div class="swiper-container hualing_wrap">
                   <div class="swiper-wrapper">
                       <!--培育-->
-                      <div class="swiper-slide  swiper-no-swiping">
+                      <div class="swiper-slide">
                         <div class="foster_btn"><img src="images/part4_flower_img_15.png"></div>
                         <div class="foster_flower">
                           <!--曼珠沙华培育-->
@@ -707,7 +707,7 @@
                         <div class="foster_text_tip"><p class="status_text">当前状态</p><p  class="status_name">曼珠沙华·花苗</p></div>
                       </div>
                       <!--抽奖-->
-                      <div class="swiper-slide swiper-no-swiping">
+                      <div class="swiper-slide">
                         <div class="lottery_bottom">
                           <P class="lottery_number">剩余抽奖次数:<span>5</span> </P>
                           <p class="lottery_btn"><img src="images/part4_lottery_btn.png"></p>
@@ -718,7 +718,7 @@
                         </div>
                       </div>
                       <!--签到-->
-                      <div class="swiper-slide swiper-no-swiping">
+                      <div class="swiper-slide">
                         <div class="check_bg" >
                             <div class="check_day_text">12</div>
                             <div class="check_day_wenhao"></div>
@@ -796,11 +796,6 @@ var Mainswiper = new Swiper('.swiper-fullscreen', {
 });
 
 
-
-
- $(document).ready(function () {
-  $('body').height($('body')[0].clientHeight);
-});
 
 var swiper = new Swiper(".dc_swiper", {
         slidesPerView: 2,
