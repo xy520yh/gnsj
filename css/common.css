@@ -54,13 +54,13 @@ input:-internal-autofill-previewed,input:-internal-autofill-selected{-webkit-tex
 
 .first_one{top:30%;}
 .two{top:40%}
-.three,.four{bottom:10%;}
+.three,.four{bottom:20%;}
 /*请选择预约方式*/
 .tc_way{width:7.5rem; height:7rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-3.5rem;z-index:3; transition: all 0.3s;}
 .tc_way_main{width:7.5rem; height:7rem;background:url(../images/tc_bg_way.png)  no-repeat;background-size:100% 100%;
 padding-top: 1.9rem;}
 .tc_way_content{width:3.86rem;position: absolute;left: 50%;transform: translateX(-50%);font-size: 0.26rem;text-align: center;color: #fff;}
-.way_select{width: 2.66rem;height: 0.34rem;margin:0 auto;margin-bottom: 0.15rem;color: #4f8190;font-family:"微软雅黑";font-size: 0.28rem;}
+.way_select{width: 2.66rem;height: 0.34rem;margin:0 auto;margin-bottom: 0.25rem;color: #4f8190;font-family:"微软雅黑";font-size: 0.28rem;}
 .way_input_phone {width: 4.15rem;height: 0.65rem;background:url(../images/tc_bg_way_input_bg.png)  no-repeat;background-size:100% 100%;margin:0 auto;margin-bottom: 0.25rem;}
 /* .way_select select {width:4.15rem;height: 0.64rem;background: url(../images/tc_way_row.png) no-repeat;background-size: 100% 100%;border: none;outline: medium;appearance: none;-moz-appearance: none;
 -webkit-appearance: none;-ms-appearance: none;font-size: 0.26rem;text-align: center;color: #fff;display: flex; justify-content: center;text-align-last: center;align-items: center;
@@ -83,7 +83,7 @@ color:#fff;  border:none; overflow:hidden; text-align:center;}
 .ios_tab  lable.gg{margin-right:0.4rem}
 .ios_tab img{width:auto;height:0.3rem}
 input[type='radio']{width:0.26rem;cursor:pointer;height:0.25rem;vertical-align:middle;opacity:0;color:#fff;position:absolute;top:0;left:0}
-.input_style{width:0.26rem;position:relative;height:0.25rem;display:inline-block;color:#fff;margin-right:0.1rem;margin-top:0.04rem}
+.input_style{width:0.26rem;position:relative;height:0.25rem;display:inline-block;color:#fff;margin-right:0.1rem;margin-top:0.07rem;}
 .radio_bg{background:url(../images/part1_login_check.png)   no-repeat;background-size:100% 100%}
 .radio_bg_check{background:url(../images/part1_login_check_hover.png) no-repeat;background-size:100% 100%}
 input[type="checkbox"]{width:0.26rem;cursor:pointer;height:0.25rem;background:url(../images/part1_login_check.png) no-repeat;background-size:100% 100%}
@@ -199,7 +199,7 @@ div.tc_choose_btn{display: flex; justify-content: center; margin-bottom: 0.1rem;
 .part3_bless_click img{width: 1.97rem;height: 1.92rem;}
 .part3_tree1{   position: absolute; left:0rem; top: -3rem;height: 4.4rem;width:7.5rem; z-index: 0;background: url(../images/part3_three2.png) no-repeat center center;background-size: 100% 100%;}
 /* .part3_tree1 img{width: 7.5rem;height: 4.53rem;} */
-.part3_tree_top{     position: absolute;     left: 0;bottom:1rem;height:10.75rem;width:7.5rem;background: url(../images/part3_three1.png) no-repeat center center;background-size: 100% 100%;}
+.part3_tree_top{     position: absolute;     left: 0;bottom:0.5rem;height:10.75rem;width:7.5rem;background: url(../images/part3_three1.png) no-repeat center center;background-size: 100% 100%;}
 /* .part3_tree_top img{width:5.8rem;height: 2.43rem;} */
 .part3_center_fl{position:absolute;left:1.7rem;top:3.15rem;overflow:hidden;width:3.55rem;height:8.32rem;transform-origin:top center;-webkit-transform-origin:top center;animation:swing_left_An 2s 0s infinite;-o-animation:swing_left_An 2s 9s infinite;-webkit-animation:swing_left_An 2s 0s infinite;-moz-animation:swing_left_An 2s 0s infinite}
 /* transform-origin:top center;animation:bellring 2s ease infinite;transform-origin:top center;animation:ballring 2s ease infinite;animation-delay:.1s */
