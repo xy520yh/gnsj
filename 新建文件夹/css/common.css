@@ -55,6 +55,7 @@ input:-internal-autofill-previewed,input:-internal-autofill-selected{-webkit-tex
 .first_one{top:30%;}
 .two{top:40%}
 .three,.four{bottom:20%;}
+.three{position:absolute;left:0rem; z-index: 2;-webkit-animation:vrSpan 3s linear infinite 300ms 0 ease;-moz-animation:vrSpan 3s linear infinite 300ms 0 ease;-ms-animation:vrSpan 3s linear infinite 300ms 0 ease;animation:vrSpan 3s linear infinite 300ms 0 ease;-moz-animation:vrSpan 3s linear infinite;-webkit-animation:vrSpan 3s linear infinite;-o-animation:vrSpan 3s linear infinite;-ms-animation:vrSpan 3s linear infinite;animation:vrSpan 3s linear infinite}
 /*请选择预约方式*/
 .tc_way{width:7.5rem; height:7rem;position: fixed;color:#fff;top:50%;left:50%;margin-left:-3.75rem;margin-top:-3.5rem;z-index:3; transition: all 0.3s;}
 .tc_way_main{width:7.5rem; height:7rem;background:url(../images/tc_bg_way.png)  no-repeat;background-size:100% 100%;
@@ -204,7 +205,7 @@ div.tc_choose_btn{display: flex; justify-content: center; margin-bottom: 0.1rem;
 .part3_center_fl{position:absolute;left:1.7rem;top:3.15rem;overflow:hidden;width:3.55rem;height:8.32rem;transform-origin:top center;-webkit-transform-origin:top center;animation:swing_left_An 2s 0s infinite;-o-animation:swing_left_An 2s 9s infinite;-webkit-animation:swing_left_An 2s 0s infinite;-moz-animation:swing_left_An 2s 0s infinite}
 /* transform-origin:top center;animation:bellring 2s ease infinite;transform-origin:top center;animation:ballring 2s ease infinite;animation-delay:.1s */
 
-.part3_center_fl img{width:3.55rem;height:8.32rem;}
+.part3_center_fl img{width:80%;height: auto;}
 /* .part3_right_dc{ position: absolute;left: 0rem;top:0rem;width:7.5rem;text-align: center;} */
 .part3_right_dc_01{ position: absolute;left: 0.5rem;top:6.1rem;}
 .part3_right_dc_03{ position: absolute;left: 2.78rem;top:5.8rem;}
@@ -367,8 +368,10 @@ img.hover-shadow{transition:0.3s}
   .inner{z-index:2;position:relative;height:calc(100vh);display:-webkit-box;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;box-sizing:border-box;
     width: 7.5rem;margin:0 auto;}
   .inner_first .content,.inner .content{position:relative;display:flex;align-items:center;flex-direction:column} 
-  .part2_title,.part3_title,.part4_title,.part_box_title,.part_banner_title{position: absolute;top:1rem;left:0;z-index: 3;}
-  .part_box_title img  {width: 7.5rem;height:auto;}
+  .part2_title,.part3_title,.part4_title,.part_banner_title{position: absolute;top:1rem;left:0;z-index: 3;}
+  .part_box_title{position: absolute;top:0.1rem;left:0;z-index: 3;width:7.5rem;}
+.one1{width:100%;height: auto;}
+.one2{width:100%;height: auto;}
   .part_banner_title img{width: 7.5rem;height: 1.14rem;}
   
   .part2_title img,.part3_title img,.part4_title img{width: 7.5rem;height: 1.14rem;}

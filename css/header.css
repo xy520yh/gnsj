@@ -1,0 +1,40 @@
+/* 头部 */
+*{margin:0;padding:0;box-sizing:border-box;}
+.header{width:100%;background:rgba(0, 0, 0, 1);height:0.7rem;position:fixed;right:0rem;top:0;left:0; z-index: 10; }
+.header_common{width:12rem;height:0.7rem;z-index:10;margin:0 auto;
+display: flex; justify-content: center;}
+.header_left{display:flex;}
+.header_logo{width:1.55rem;height:0.71rem;position: absolute;left:1.11rem;top:0rem;}
+.header_logo img,.header_logo1 img{width:1.55rem;height:0.71rem;}
+
+.header_logo1{width:1.55rem;height:0.71rem;position: absolute;left:1.11rem;top:-0.35rem;}
+
+.header_nav{display:flex;height:100%;align-items:center;letter-spacing:5px;position:relative;width:100%;
+    justify-content:center;
+}
+.header_nav a{    margin: 0 0.4rem;font-size:0.2rem;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;letter-spacing:0.01rem;color:#fff;
+    font-weight: normal;
+}
+.header_nav a:nth-child(1){margin-left:0;}
+.header_nav a.active,.header_nav a:hover{   
+     text-shadow: 0 0 0.05rem #0d5aed, 0 0 0.1rem #0d5aed, 0 0 0.15rem #0d5aed, 0 0 0.2rem #0d5aed, 0 0 0.35rem #0d5aed, 0 0 0.4rem #0d5aed, 0 0 0.5rem #0d5aed;
+     color: #fff;
+}
+.header_nav img{height:0.26rem;width:auto;}
+.header_right{display:flex;height:100%;width:1.7rem; align-items: center; margin-right: 0.3rem; justify-content: space-between;}
+.header_right a{height:0.9rem; }
+.header_right .common_ico_follow img{width:0.39rem;height:auto; transition: all 0.3s;}
+.header_right .common_ico_fb img{width:0.39rem;height:auto;transition: all 0.3s;}
+.header_right .common_ico_game img{width:0.28rem;height:auto;transition: all 0.3s;}
+.header_right .common_ico_follow img:hover,.header_right .common_ico_fb img:hover,.header_right .common_ico_game img:hover,.sidebar_ico img:hover{transform: translateY(-0.05rem);}
+
+.menu{position: absolute;left:0rem;top:0rem;height:0.71rem;width:1.55rem; cursor: pointer; display: flex; align-items: center; justify-content: center;}
+.menu img{width:1.55rem;height:0.71rem;}
+.twitter_box{transition: all 0.3s;position: fixed;left:0;top:0;width: 5.98rem;max-width: 30%; background:rgba(0,0,0,0.75);height:100%;z-index:10;color:#fff;
+    flex-direction: column;display: flex;justify-content: center;padding: 0.50rem;transform:translateX(-100%)}
+  .twitter_box.active{transform:translateX(0)}
+  .twitter_box .title{font-size: 0.46rem;}
+  .twitter_box .title span{font-size: 0.27rem;}
+  .twitter_box textarea{border: 0.01rem solid rgba(255,255,255,0.3);background: transparent;width:100%;height:60vh;color:#fff;font-size: 0.24rem;padding: 0.15rem 0.20rem;margin-bottom: 0.27rem;}
+  .twitter_box .follow{transition: all 0.3s;border:0;width: 2.16rem;height: 0.66rem;background: url(../images/follow.png) no-repeat center center;font-size:0;background-size: contain;}
+  .twitter_box .follow:hover,.twitter_box .follow:active{background-image: url(../images/follow_h.png)}
