@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <link href="css/header.css"      rel="stylesheet">
     <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/swiper.min.css"  rel="stylesheet" >
+    <link href="css/swiper-bundle.min.css"  rel="stylesheet" >
     <link href="css/index.css"       rel="stylesheet">
     <link href="css/css.css"       rel="stylesheet">
     <link href="css/colorbox.css"    rel="stylesheet" >
@@ -330,7 +330,7 @@
 </div>
 <script src="js/jquery.min1.js"></script>
 <script src="js/devicerem.js"></script>
-<script src="js/swiper.min.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
 <script src="js/qiehuan.js"></script>
 <script src="js/swiper.animate1.0.3.min.js"></script>
 <script text="type/javascript" src="js/input.js"></script>   
@@ -341,8 +341,8 @@ var swiper1 = new Swiper('.swiper-fullscreen', {
 
 
 
-  speed:600,simulateTouch:!1,roundLengths:!0,
-  resistanceRatio:0,
+  // speed:600,simulateTouch:!1,roundLengths:!0,
+  // resistanceRatio:0,
   direction: 'vertical',
   slidesPerView: 'auto',
   hashNavigation: true,
@@ -379,7 +379,7 @@ $(function () {
     })
 }) 
 //圣境情报
-certifySwiper = new Swiper('#certify .swiper-container', {
+var certifySwiper = new Swiper('#certify .swiper-container', {
 	watchSlidesProgress: true, spaceBetween : -30,
 	slidesPerView: 'auto', 
 	centeredSlides: true,
