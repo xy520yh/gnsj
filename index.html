@@ -343,6 +343,9 @@ var swiper1 = new Swiper('.swiper-fullscreen', {
   hashNavigation: true,
   mousewheel: true,
   threshold : 100,
+  mousewheel: {
+		thresholdTime:2000,
+	 },
   touchRatio : 0.5,
   //simulateTouch : false,
   on: {
@@ -362,6 +365,34 @@ var swiper1 = new Swiper('.swiper-fullscreen', {
     },
   },
 });
+
+
+
+// 获取 swiper 元素
+const swiperEl = document.querySelector('.swiper-fullscreen');
+ 
+// 添加 touchstart 和 touchmove 事件的监听
+swiperEl.addEventListener('touchstart', touchStartHandler);
+swiperEl.addEventListener('touchmove', touchMoveHandler);
+ 
+// touchstart 事件处理函数
+function touchStartHandler(e) {
+  // 记录初始触摸位置
+  this.touchStartX = e.touches[0].pageX;
+  this.touchStartY = e.touches[0].pageY;
+}
+ 
+// touchmove 事件处理函数
+function touchMoveHandler(e) {
+  // 计算触摸位移
+  const deltaX = e.touches[0].pageX - this.touchStartX;
+  const deltaY = e.touches[0].pageY - this.touchStartY;
+  // 判断是否为左滑手势
+  if (deltaX < 0 && Math.abs(deltaX) > Math.abs(deltaY)) {
+    // 阻止浏览器默认行为
+    e.preventDefault();
+  }
+}
 
 $('.part_box_suspend').click(function(){
     swiper1.slideTo(2);
