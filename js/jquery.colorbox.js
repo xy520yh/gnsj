@@ -396,10 +396,9 @@
 				setClass(settings.get('className'));
 
 				// Show colorbox so the sizes can be calculated in older versions of jQuery
-				$box.css({visibility:'', display:'block', opacity:''});
-				//$box.css({border:'1px solid #f00'});
+				$box.css({visibility:'hidden', display:'block', opacity:''});
 
-				$loaded = $tag(div, 'LoadedContent', 'width:0; height:0;');
+				$loaded = $tag(div, 'LoadedContent', 'width:0; height:0; overflow:hidden; visibility:hidden');
 				$content.css({width:'', height:''}).append($loaded);
 
 				// Cache values needed for size calculations
@@ -509,7 +508,7 @@
 				)
 			).find('div div').css({'float': 'left'});
 
-			$loadingBay = $tag(div, false, 'position:absolute; width:9999px;  display:none; max-width:none;');
+			$loadingBay = $tag(div, false, 'position:absolute; width:9999px; visibility:hidden; display:none; max-width:none;');
 
 			$groupControls = $next.add($prev).add($current).add($slideshow);
 		}
@@ -800,7 +799,7 @@
 
 		$loaded.hide()
 		.appendTo($loadingBay.show())// content has to be appended to the DOM for accurate size calculations.
-		.css({width: getWidth(), overflow: settings.get('scrolling') ? 'auto' : ''})
+		.css({width: getWidth(), overflow: settings.get('scrolling') ? 'auto' : 'hidden'})
 		.css({height: getHeight()})// sets the height independently from the width in case the new width influences the value of height.
 		.prependTo($content);
 
