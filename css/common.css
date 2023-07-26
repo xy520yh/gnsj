@@ -102,7 +102,7 @@ src: url('../font/NEXEN\ TIRE_Regular.ttf'),
  .part1_video_play{width:7.5rem;height:1.42rem;overflow:hidden;cursor:pointer;position:absolute;z-index:100;background: url(../images/part1_video_play_bg.png) no-repeat center center;background-size: 100% 100%}
  .part1_video_play:hover{background: url(../images/part1_video_play_bg.png) no-repeat center center;background-size: 100% 100%;transform:scale(1.1);transition: all 0.3s;}
  .part1_video_play span{display: block;width:7.5rem;height:1.42rem;background: url(../images/part1_video_play_btn.png) no-repeat center center;background-size: 100% 100%;-webkit-animation:circle 5s infinite linear;animation:circle 5s infinite linear;}
- .part1_video_btn{position: relative;width:7.5rem;height:1.42rem;display: flex;justify-content: center;margin-bottom: 0.3rem;}
+ .part1_video_btn{position: relative;width:7.5rem;height:1.42rem;display: flex;justify-content: center;margin-bottom: 0.3rem; top:4rem;}
  .part1_btn  img{width: 5.52rem;height: 1.18rem;-webkit-animation: magnify .6s linear infinite alternate;	-moz-animation: magnify .6s linear infinite alternate;	animation: magnify .6s linear infinite alternate;}
  .part1_logo img,.part1_solgen img,.part1_video_play img,.part1_btn img,.part1_footer img{width:7.5rem;height:auto;}
 .part1_footer,.part1_down{position:absolute;left:0;width:7.5rem;display: flex; justify-content: center;}
